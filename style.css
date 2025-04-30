@@ -1,6 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Agdasima:wght@400;700&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Reem+Kufi:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap'); */
-/* @import url('/https://fonts.googleapis.com/css2?family=Aboreto&family=Agdasima:wght@400;700&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Reem+Kufi:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Agdasima:wght@400;700&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Reem+Kufi:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 *{
     margin: 0;
@@ -199,6 +197,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        height: 100%;
     }
     .update{
         width: 100%;
@@ -214,6 +213,7 @@
         color: #788093;
         width: 100%;
         display: flex;
+        row-gap: 3px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -233,11 +233,12 @@
     .footer-links{
         display: flex;
         flex-direction: column;
+        row-gap: 5px;
         justify-content: space-around;
         align-items: start;
     } 
     .header{
-        height: 40vh;
+        height: 35vh;
     }
     .navbar{
         display: flex;
@@ -261,22 +262,22 @@
         font-size: 2rem;
     }
     .header-paragraph{
-        width: 80%;
+        width: 90%;
         text-align: center;
     }
     .hero-navbar{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        height: 14vh;
+        height: 10vh;
     }
     .hero-ul{
         display: flex;
         flex-wrap: wrap;
         font-size: .7rem;
-        justify-content: space-between;
-        width: 80%;
+        justify-content: space-around;
+        width: 100%;
         align-items: center;
     }
     .cards-main{
@@ -290,7 +291,7 @@
         margin: 20px;
     }
     .daily-news-card{
-        width: 70%;
+        width: 95%;
         text-align: center;
         padding: 1rem;
     }
@@ -312,7 +313,16 @@
         width: 13%;
         height: 3vh;
     }
+    .navbar{
+        height: 8vh;
+        border-bottom: 1px solid rgba(158, 151, 151, 0.616);
+    }
     .card-paragraph{
+        width: 90%;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: .7em;
     }
     .header-main{
