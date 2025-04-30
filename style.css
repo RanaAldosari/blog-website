@@ -285,7 +285,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
       row-gap: 2rem;
-        width: 100%;
+        width: 90%;
         height: 100%;
         align-items: start;
         margin: 20px;
@@ -296,7 +296,7 @@
         padding: 1rem;
     }
     .card-image{
-        width: 100%;
+        width: 90%;
     }
     .card-title{
         display: flex;
